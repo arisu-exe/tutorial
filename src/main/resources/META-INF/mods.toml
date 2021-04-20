@@ -1,16 +1,16 @@
 modLoader="javafml" #mandatory
 loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="All rights reserved"
-issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/fallOut015/tutorial/issues" #optional
 [[mods]] #mandatory
 modId="tutorial" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Tutorial Mod" #mandatory
-updateJSONURL="https://change.me.example.invalid/updates.json" #optional
-displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayName="fallOut015's Tutorial Mod" #mandatory
+updateJSONURL="https://raw.githubusercontent.com/fallOut015/tutorial/main/src/main/resources/updates.json" #optional
+displayURL="https://www.curseforge.com/minecraft/mc-mods/tutorial-mod-fallout015" #optional
 logoFile="tutorial.png" #optional
-credits="Thanks for this example mod goes to Java" #optional
-authors="Love, Cheese and small house plants" #optional
+credits="Thanks for this tutorial mod goes to fallOut015" #optional
+authors="fallOut015" #optional
 description='''
 A Tutorial Mod by fallOut015.
 '''
