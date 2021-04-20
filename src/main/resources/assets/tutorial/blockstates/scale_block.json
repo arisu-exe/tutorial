@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorial:block/scale_block"
+    }
+  }
+}

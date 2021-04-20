@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "toadstools=1": [
+      {
+        "model": "tutorial:block/toadstool"
+      }
+    ],
+    "toadstools=2": [
+      {
+        "model": "tutorial:block/two_toadstools"
+      },
+      {
+        "model": "tutorial:block/two_toadstools",
+        "y": 90
+      },
+      {
+        "model": "tutorial:block/two_toadstools",
+        "y": 180
+      },
+      {
+        "model": "tutorial:block/two_toadstools",
+        "y": 270
+      }
+    ]
+  }
+}

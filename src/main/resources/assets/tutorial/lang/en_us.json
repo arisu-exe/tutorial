@@ -1,0 +1,34 @@
+{
+	"block.tutorial.scale_block" : "Scale Block",
+	
+	"block.tutorial.thicket" : "Thicket",
+	"block.tutorial.thicket_plant" : "Thicket Plant",
+	"block.tutorial.toadstool" : "Toadstool",
+	"block.tutorial.twilight_petal" : "Twilight Petal",
+	
+	"block.tutorial.scoria" : "Scoria",
+	"block.tutorial.ruby" : "Ruby",
+	"block.tutorial.speleothem" : "Speleothem",
+	
+	
+	
+	"item.tutorial.rainbow_horn" : "Rainbow Horn",
+	"item.tutorial.draconic_scale" : "Draconic Scale",
+	
+	"item.tutorial.rainbow_sword" : "Rainbow Sword",
+	
+	"item.tutorial.unicorn_spawn_egg" : "Unicorn Spawn Egg",
+
+	"item.tutorial.draconic_helmet" : "Draconic Helmet",
+	"item.tutorial.draconic_chestplate" : "Draconic Chestplate",
+	"item.tutorial.draconic_leggings" : "Draconic Leggings",
+	"item.tutorial.draconic_boots" : "Draconic Boots",
+	
+	
+	
+	"death.attack.tutorial:thicket" : "%1$s was pricked to death",
+	
+	
+	
+	"subtitles.item.armor.equip_draconic": "Draconic armor scrapes"
+}

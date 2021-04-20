@@ -1,0 +1,7 @@
+{
+  "parent": "tutorial:block/double_cross",
+  "textures": {
+    "cross": "tutorial:block/toadstool",
+    "cross2": "tutorial:block/two_toadstools"
+  }
+}

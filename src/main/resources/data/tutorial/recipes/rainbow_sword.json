@@ -1,0 +1,19 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"X",
+    	"X",
+    	"#"
+	],
+	"key" : {
+    	"#" : {
+      		"tag" : "forge:rods/wooden"
+    	},
+    	"X" : {
+    		"item" : "tutorial:rainbow_horn"
+    	}
+  	},
+  	"result" : {
+    	"item" : "tutorial:rainbow_sword"
+  	}
+}

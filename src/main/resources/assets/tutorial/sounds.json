@@ -1,0 +1,9 @@
+{
+	"item.armor.equip_draconic" : {
+		"category" : "item",
+		"subtitle" : "subtitles.item.armor.equip_draconic",
+		"sounds" : [
+			"two:item/armor/equip_draconic"
+		]
+	}
+}

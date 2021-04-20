@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "bloom=1": [
+      {
+        "model": "tutorial:block/twilight_petal_1"
+      }
+    ],
+    "bloom=2": [
+      {
+        "model": "tutorial:block/twilight_petal_2"
+      }
+    ],
+	"bloom=3": [
+      {
+        "model": "tutorial:block/twilight_petal_3"
+      }
+    ]
+  }
+}

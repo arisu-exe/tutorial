@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorial:scale_block"
+    }
+  ],
+  "result": {
+    "item": "tutorial:draconic_scale",
+    "count": 9
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=up": {
+      "model": "tutorial:block/ruby"
+    },
+    "facing=down": {
+      "model": "tutorial:block/ruby",
+      "x": 180
+    },
+	"facing=south": {
+      "model": "tutorial:block/ruby",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "tutorial:block/ruby",
+      "y": 90,
+      "x": 90
+    },
+    "facing=north": {
+      "model": "tutorial:block/ruby",
+      "y": 180,
+      "x": 90
+    },
+    "facing=west": {
+      "model": "tutorial:block/ruby",
+      "y": 270,
+      "x": 90
+    }
+  }
+}

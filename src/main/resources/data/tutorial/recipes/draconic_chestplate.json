@@ -1,0 +1,16 @@
+{
+	"type" : "minecraft:crafting_shaped",
+	"pattern" : [
+		"X X",
+    	"XXX",
+		"XXX"
+	],
+	"key" : {
+    	"X" : {
+    		"item" : "tutorial:draconic_scale"
+    	}
+  	},
+  	"result" : {
+    	"item" : "tutorial:draconic_chestplate"
+  	}
+}

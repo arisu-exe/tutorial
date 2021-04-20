@@ -1,0 +1,32 @@
+{
+	"parent": "minecraft:recipes/root",
+  	"rewards": {
+    	"recipes": [
+      		"tutorial:rainbow_sword"
+    	]
+  	},
+  	"criteria": {
+    	"has_rainbow_horn": {
+      		"trigger": "minecraft:inventory_changed",
+      		"conditions": {
+        		"items": [
+          			{
+            			"item": "tutorial:rainbow_horn"
+          			}
+        		]
+      		}
+    	},
+    	"has_the_recipe": {
+      		"trigger": "minecraft:recipe_unlocked",
+      		"conditions": {
+        		"recipe": "tutorial:rainbow_sword"
+      		}
+    	}
+  	},
+  	"requirements": [
+    	[
+      		"has_rainbow_horn",
+      		"has_the_recipe"
+    	]
+  	]
+}
