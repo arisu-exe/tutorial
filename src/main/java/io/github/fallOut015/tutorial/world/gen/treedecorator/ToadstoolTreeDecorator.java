@@ -7,8 +7,8 @@ import java.util.Set;
 
 import com.mojang.serialization.Codec;
 
-import io.github.tutorial.block.BlocksTutorial;
-import io.github.tutorial.block.ToadstoolBlock;
+import io.github.fallOut015.tutorial.world.level.block.BlocksTutorial;
+import io.github.fallOut015.tutorial.world.level.block.ToadstoolBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.util.Direction;
 import net.minecraft.util.math.BlockPos;

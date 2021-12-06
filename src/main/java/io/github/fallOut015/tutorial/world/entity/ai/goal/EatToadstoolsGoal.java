@@ -3,7 +3,7 @@ package io.github.tutorial.entity.ai.goal;
 import java.util.EnumSet;
 import java.util.function.Predicate;
 
-import io.github.tutorial.block.BlocksTutorial;
+import io.github.fallOut015.tutorial.world.level.block.BlocksTutorial;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

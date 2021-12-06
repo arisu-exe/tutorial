@@ -1,6 +1,6 @@
 package io.github.tutorial.client;
 
-import io.github.tutorial.block.BlocksTutorial;
+import io.github.fallOut015.tutorial.world.level.block.BlocksTutorial;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;

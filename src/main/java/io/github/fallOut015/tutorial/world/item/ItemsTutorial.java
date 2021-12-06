@@ -1,8 +1,8 @@
-package io.github.tutorial.item;
+package io.github.fallOut015.tutorial.world.item;
 
 import io.github.tutorial.TutorialMod;
-import io.github.tutorial.block.BlocksTutorial;
-import io.github.tutorial.entity.EntityTypeTutorial;
+import io.github.fallOut015.tutorial.world.level.block.BlocksTutorial;
+import io.github.fallOut015.tutorial.world.entity.EntityTypeTutorial;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.BlockItem;

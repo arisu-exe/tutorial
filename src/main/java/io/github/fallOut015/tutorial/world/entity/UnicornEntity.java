@@ -1,4 +1,4 @@
-package io.github.tutorial.entity;
+package io.github.fallOut015.tutorial.world.entity;
 
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.passive.horse.AbstractHorseEntity;

@@ -4,7 +4,7 @@ import java.util.Random;
 
 import com.mojang.serialization.Codec;
 
-import io.github.tutorial.block.BlocksTutorial;
+import io.github.fallOut015.tutorial.world.level.block.BlocksTutorial;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.ISeedReader;
 import net.minecraft.world.gen.ChunkGenerator;

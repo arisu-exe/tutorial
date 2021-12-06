@@ -1,7 +1,7 @@
 package io.github.tutorial.client.registry;
 
 import io.github.tutorial.client.renderer.entity.UnicornRenderer;
-import io.github.tutorial.entity.EntityTypeTutorial;
+import io.github.fallOut015.tutorial.world.entity.EntityTypeTutorial;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 

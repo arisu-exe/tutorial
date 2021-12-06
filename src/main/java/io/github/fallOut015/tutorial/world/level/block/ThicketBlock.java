@@ -1,12 +1,7 @@
-package io.github.tutorial.block;
-
-import java.util.Random;
+package io.github.fallOut015.tutorial.world.level.block;
 
 import io.github.tutorial.util.DamageSourceTutorial;
-import net.minecraft.block.AbstractTopPlantBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.PlantBlockHelper;
+import net.minecraft.block.*;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -19,11 +14,11 @@ import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.World;
 
-public class ThicketTopBlock extends AbstractTopPlantBlock {
-	private static final VoxelShape SHAPE = Block.box(1.0D, 0.0D, 1.0D, 15.0D, 15.0D, 15.0D);
+public class ThicketBlock extends AbstractBodyPlantBlock {
+	private static final VoxelShape SHAPE = Block.box(1.0D, 0.0D, 1.0D, 16.0D, 15.0D, 15.0D);
 
-	public ThicketTopBlock(Properties properties) {
-		super(properties, Direction.UP, SHAPE, false, 0.1d);
+	public ThicketBlock(Properties properties) {
+		super(properties, Direction.UP, SHAPE, false);
 	}
 	
 	@Override
@@ -43,6 +38,7 @@ public class ThicketTopBlock extends AbstractTopPlantBlock {
 			}
 		}
 	}
+
 	@Override
 	public void playerWillDestroy(World world, BlockPos pos, BlockState state, PlayerEntity player) {
 		if(player.getUseItem().isEmpty()) {
@@ -53,15 +49,7 @@ public class ThicketTopBlock extends AbstractTopPlantBlock {
 	}
 
 	@Override
-	protected int getBlocksToGrowWhenBonemealed(Random rand) {
-		return PlantBlockHelper.getBlocksToGrowWhenBonemealed(rand);
-	}
-	@Override
-	protected boolean canGrowInto(BlockState state) {
-		return PlantBlockHelper.isValidGrowthState(state);
-	}
-	@Override
-	protected Block getBodyBlock() {
-		return BlocksTutorial.THICKET_PLANT.get();
+	protected AbstractTopPlantBlock getHeadBlock() {
+		return (AbstractTopPlantBlock) BlocksTutorial.THICKET.get();
 	}
 }

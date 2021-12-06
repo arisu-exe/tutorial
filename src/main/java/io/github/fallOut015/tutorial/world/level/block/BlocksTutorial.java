@@ -1,4 +1,4 @@
-package io.github.tutorial.block;
+package io.github.fallOut015.tutorial.world.level.block;
 
 import io.github.tutorial.TutorialMod;
 import net.minecraft.block.AbstractBlock;

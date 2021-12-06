@@ -1,4 +1,4 @@
-package io.github.tutorial.item;
+package io.github.fallOut015.tutorial.world.item;
 
 import java.util.function.Supplier;
 

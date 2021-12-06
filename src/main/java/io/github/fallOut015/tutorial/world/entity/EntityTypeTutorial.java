@@ -1,4 +1,4 @@
-package io.github.tutorial.entity;
+package io.github.fallOut015.tutorial.world.entity;
 
 import io.github.tutorial.TutorialMod;
 import net.minecraft.entity.EntityClassification;

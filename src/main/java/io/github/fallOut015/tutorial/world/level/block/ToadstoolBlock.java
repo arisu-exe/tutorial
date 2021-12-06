@@ -1,4 +1,4 @@
-package io.github.tutorial.block;
+package io.github.fallOut015.tutorial.world.level.block;
 
 import java.util.Random;
 
